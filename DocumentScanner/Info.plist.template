@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Camera Permission -->
+    <key>NSCameraUsageDescription</key>
+    <string>Camera access is required to scan documents.</string>
+
+    <!-- Photo Library Permission (optional, if adding photo library save feature) -->
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Save processed document images to your photo library.</string>
+
+    <!-- Minimum iOS Version -->
+    <key>MinimumOSVersion</key>
+    <string>14.0</string>
+
+    <!-- Required Device Capabilities -->
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>armv7</string>
+    </array>
+
+    <!-- Supported Interface Orientations (iPhone) -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <!-- Files App Support -->
+    <key>UIFileSharingEnabled</key>
+    <true/>
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+</dict>
+</plist>
